@@ -1,4 +1,18 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-#{welcome /}
+<form action="@{Application.operation()}" method="GET">
+    <input type="text" name="arg1" size="12" />
+    <input type="text" name="arg2" size="12" /> 
+    <input type="submit" value="Operation!" />
+    <p>
+    <img alt="addiction" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/50px-Symbol_support_vote.svg.png">
+    <input type="radio" name="selection" value="addiction" />
+    <img alt="subtraction" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Symbol_oppose_vote.svg/50px-Symbol_oppose_vote.svg.png">
+    <input type="radio" name="selection" value="subtraction" />
+    <img alt="multiplication" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Symbol_multiplication_vote.svg/50px-Symbol_multiplication_vote.svg.png">
+    <input type="radio" name="selection" value="multiplication" />
+    <img alt="division" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Symbol_divide_vote.svg/50px-Symbol_divide_vote.svg.png">
+    <input type="radio" name="selection" value="division" />
+    </p>
+</form>

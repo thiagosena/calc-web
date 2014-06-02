@@ -1,0 +1,24 @@
+#{extends 'main.html' /}
+#{set title:selection /}
+ 
+ #{if selection == 'addiction'}
+	<h1>Addiction ${}!</h1>
+#{/if}
+
+#{elseif selection == 'subtraction'}
+	<h1>Subtraction ${}!</h1>
+#{/elseif}
+
+#{elseif selection == 'multiplication'}
+	<h1>Multiplication ${}!</h1>
+#{/elseif}
+
+#{elseif selection == 'division'}
+	<h1>Division ${}!</h1>
+#{/elseif}
+
+#{else}
+	<h1>Nothing!</h1>
+#{/else}
+ 
+<a href="@{Application.index()}">Back to home</a>
