@@ -1,4 +1,4 @@
-Calculadora Web [![Build Status](https://travis-ci.org/thiagosena/calc-web.svg?branch=master)](https://travis-ci.org/thiagosena/calc-web)
+Calculadora Web [![Build Status](https://travis-ci.org/thiagosena/calc-web.svg?branch=master)](https://travis-ci.org/thiagosena/calc-web) [ ![Codeship Status for thiagosena/calc-web](https://www.codeship.io/projects/9a2ac740-ceb4-0131-1d76-4685d0c4aa32/status?branch=master)](https://www.codeship.io/projects/22936)
 ========
 
 Sistema Web que irá simular uma calculadora com as 4 operações básicas (Adição, Subtração, Multiplicação e Divisão) consumindo as funções de uma biblioteca ([calc-lib](https://github.com/thiagosena/maven-calclib)) para realizar essas operações.
