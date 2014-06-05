@@ -1,20 +1,20 @@
 #{extends 'main.html' /}
 #{set title:selection /}
  
- #{if selection == 'addiction'}
-	<h1>Addiction ${}!</h1>
+ #{if selection == 'sum'}
+	<h1>${arg1}+${arg2} = ${result}!</h1>
 #{/if}
 
-#{elseif selection == 'subtraction'}
-	<h1>Subtraction ${}!</h1>
+#{elseif selection == 'minus'}
+	<h1>${arg1}-${arg2} = ${result}!</h1>
 #{/elseif}
 
-#{elseif selection == 'multiplication'}
-	<h1>Multiplication ${}!</h1>
+#{elseif selection == 'mult'}
+	<h1>${arg1}*${arg2} = ${result}!</h1>
 #{/elseif}
 
-#{elseif selection == 'division'}
-	<h1>Division ${}!</h1>
+#{elseif selection == 'div'}
+	<h1>${arg1}/${arg2} = ${result}!</h1>
 #{/elseif}
 
 #{else}
