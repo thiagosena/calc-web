@@ -1,12 +1,15 @@
 CompilerOracle: exclude jregex/Pretokenizer.next
 Listening for transport dt_socket at address: 8000
-14:21:34,250 INFO  ~ Starting C:\DOCUME~1\ADMINI~1\git\calc-web
-14:21:35,515 WARN  ~ You're running Play! in DEV mode
+ INFO [main] (Logger.java:289) - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+ WARN [main] (Logger.java:344) - You're running Play! in DEV mode
 ~
 ~ Go to http://localhost:9000/@tests to run the tests
 ~
-14:21:36,046 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+ INFO [main] (Logger.java:289) - Listening for HTTP on port 9000 (Waiting a first request to start) ...
 ### Excluding compile: jregex.Pretokenizer::next
-14:21:39,390 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
-14:21:39,500 INFO  ~ Application 'calc-web' is now started !
+ INFO [play-thread-1] (Logger.java:289) - Application 'calc-web' is now started !
+ INFO [play-thread-1] (ApplicationTest.java:37) - renderParseMultUrl() 20 * 10: 200.0
+ INFO [play-thread-1] (ApplicationTest.java:45) - renderParseDivUrl() 20 / 10: 2.0
+ INFO [play-thread-1] (ApplicationTest.java:22) - renderParseSumUrl() 10 + 20: 30.0
+ INFO [play-thread-1] (ApplicationTest.java:30) - renderParseMinusUrl() 20 - 10: 10.0
 @KILLED

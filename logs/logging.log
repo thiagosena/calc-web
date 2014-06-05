@@ -1,0 +1,37 @@
+2014-06-05 14:47:16,593 - play - INFO - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+2014-06-05 14:47:18,484 - play - WARN - You're running Play! in DEV mode
+2014-06-05 14:47:19,640 - play - INFO - Listening for HTTP on port 9000 (Waiting a first request to start) ...
+2014-06-05 14:47:35,031 - play - INFO - Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+2014-06-05 14:47:35,203 - play - INFO - Application 'calc-web' is now started !
+2014-06-05 14:47:42,765 - ApplicationTest - INFO - testSum() 10 + 20: 30.0
+2014-06-05 14:47:42,890 - ApplicationTest - INFO - testSum() 20 + 10: 10.0
+2014-06-05 15:02:36,328 - play - INFO - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+2014-06-05 15:02:38,531 - play - WARN - You're running Play! in DEV mode
+2014-06-05 15:02:39,437 - play - INFO - Listening for HTTP on port 9000 (Waiting a first request to start) ...
+2014-06-05 15:03:36,218 - play - INFO - Application 'calc-web' is now started !
+2014-06-05 15:03:57,546 - ApplicationTest - INFO - testSum() 10 + 20: 30.0
+2014-06-05 15:03:57,671 - ApplicationTest - INFO - testSum() 20 + 10: 10.0
+2014-06-05 15:15:45,640 - play - INFO - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+2014-06-05 15:15:46,937 - play - WARN - You're running Play! in DEV mode
+2014-06-05 15:15:47,812 - play - INFO - Listening for HTTP on port 9000 (Waiting a first request to start) ...
+2014-06-05 15:16:08,031 - play - INFO - Application 'calc-web' is now started !
+2014-06-05 15:16:13,281 - ApplicationTest - INFO - renderParseMinusUrl() 20 - 10: 10.0
+2014-06-05 15:16:13,421 - ApplicationTest - INFO - renderParseSumUrl() 10 + 20: 30.0
+2014-06-05 15:16:13,546 - ApplicationTest - INFO - renderParseMultUrl() 20 * 10: 10.0
+2014-06-05 15:16:13,671 - ApplicationTest - INFO - renderParseDivUrl() 20 / 10: 10.0
+2014-06-05 15:17:56,937 - play - INFO - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+2014-06-05 15:17:58,171 - play - WARN - You're running Play! in DEV mode
+2014-06-05 15:17:58,687 - play - INFO - Listening for HTTP on port 9000 (Waiting a first request to start) ...
+2014-06-05 15:18:01,343 - play - INFO - Application 'calc-web' is now started !
+2014-06-05 15:18:04,984 - ApplicationTest - INFO - renderParseMultUrl() 20 * 10: 10.0
+2014-06-05 15:18:05,203 - ApplicationTest - INFO - renderParseDivUrl() 20 / 10: 10.0
+2014-06-05 15:18:05,328 - ApplicationTest - INFO - renderParseSumUrl() 10 + 20: 30.0
+2014-06-05 15:18:05,484 - ApplicationTest - INFO - renderParseMinusUrl() 20 - 10: 10.0
+2014-06-05 15:19:37,125 - play - INFO - Starting C:\DOCUME~1\ADMINI~1\git\calc-web
+2014-06-05 15:19:38,593 - play - WARN - You're running Play! in DEV mode
+2014-06-05 15:19:39,937 - play - INFO - Listening for HTTP on port 9000 (Waiting a first request to start) ...
+2014-06-05 15:19:47,515 - play - INFO - Application 'calc-web' is now started !
+2014-06-05 15:20:01,406 - ApplicationTest - INFO - renderParseMultUrl() 20 * 10: 200.0
+2014-06-05 15:20:01,531 - ApplicationTest - INFO - renderParseDivUrl() 20 / 10: 2.0
+2014-06-05 15:20:01,656 - ApplicationTest - INFO - renderParseSumUrl() 10 + 20: 30.0
+2014-06-05 15:20:01,781 - ApplicationTest - INFO - renderParseMinusUrl() 20 - 10: 10.0
